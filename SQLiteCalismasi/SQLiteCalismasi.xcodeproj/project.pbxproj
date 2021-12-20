@@ -1,0 +1,1049 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B198895427537AE90049DFA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B198895327537AE90049DFA2 /* AppDelegate.swift */; };
+		B198895627537AE90049DFA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B198895527537AE90049DFA2 /* SceneDelegate.swift */; };
+		B198895827537AE90049DFA2 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B198895727537AE90049DFA2 /* LoginVC.swift */; };
+		B198895B27537AE90049DFA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B198895927537AE90049DFA2 /* Main.storyboard */; };
+		B198895D27537AE90049DFA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B198895C27537AE90049DFA2 /* Assets.xcassets */; };
+		B198896027537AE90049DFA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B198895E27537AE90049DFA2 /* LaunchScreen.storyboard */; };
+		B198896B27537AEA0049DFA2 /* SQLiteCalismasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B198896A27537AEA0049DFA2 /* SQLiteCalismasiTests.swift */; };
+		B198897527537AEA0049DFA2 /* SQLiteCalismasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B198897427537AEA0049DFA2 /* SQLiteCalismasiUITests.swift */; };
+		B198897727537AEA0049DFA2 /* SQLiteCalismasiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B198897627537AEA0049DFA2 /* SQLiteCalismasiUITestsLaunchTests.swift */; };
+		B198898827537D1D0049DFA2 /* LoginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B198898727537D1D0049DFA2 /* LoginProtocol.swift */; };
+		B198898B27537E160049DFA2 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B198898A27537E160049DFA2 /* LoginInteractor.swift */; };
+		B198899A27537E940049DFA2 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = B198899027537E940049DFA2 /* FMDatabase.m */; };
+		B198899B27537E940049DFA2 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B198899227537E940049DFA2 /* FMDatabaseAdditions.m */; };
+		B198899C27537E940049DFA2 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B198899427537E940049DFA2 /* FMDatabaseQueue.m */; };
+		B198899D27537E940049DFA2 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = B198899627537E940049DFA2 /* FMDatabasePool.m */; };
+		B198899E27537E940049DFA2 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B198899927537E940049DFA2 /* FMResultSet.m */; };
+		B19889A027537F3C0049DFA2 /* Notlar.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B198899F27537F3C0049DFA2 /* Notlar.sqlite */; };
+		B19889A2275381640049DFA2 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19889A1275381640049DFA2 /* LoginPresenter.swift */; };
+		B19889A8275382BE0049DFA2 /* NotlarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19889A7275382BE0049DFA2 /* NotlarVC.swift */; };
+		B19889AB275386C60049DFA2 /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19889AA275386C60049DFA2 /* Kisiler.swift */; };
+		B19889AE275389970049DFA2 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19889AD275389970049DFA2 /* LoginRouter.swift */; };
+		B19889B127538DD40049DFA2 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19889B027538DD40049DFA2 /* RegisterVC.swift */; };
+		B19889B427538EAA0049DFA2 /* RegisterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19889B327538EAA0049DFA2 /* RegisterProtocol.swift */; };
+		B19889B727538F350049DFA2 /* RegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19889B627538F350049DFA2 /* RegisterInteractor.swift */; };
+		B19889B9275395770049DFA2 /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19889B8275395770049DFA2 /* RegisterPresenter.swift */; };
+		B19889BD275396070049DFA2 /* RegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19889BC275396070049DFA2 /* RegisterRouter.swift */; };
+		B19889C027539C9F0049DFA2 /* NotlarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19889BF27539C9F0049DFA2 /* NotlarTableViewCell.swift */; };
+		B19889C227539D310049DFA2 /* Notlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19889C127539D310049DFA2 /* Notlar.swift */; };
+		B19889C627539E0F0049DFA2 /* DetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19889C527539E0F0049DFA2 /* DetayVC.swift */; };
+		B19889C927539F4E0049DFA2 /* NotlarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19889C827539F4E0049DFA2 /* NotlarProtocol.swift */; };
+		B19889CC2753A0510049DFA2 /* NotlarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19889CB2753A0510049DFA2 /* NotlarInteractor.swift */; };
+		B19889CF2753A3710049DFA2 /* NotlarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19889CE2753A3710049DFA2 /* NotlarPresenter.swift */; };
+		B19889D22753A8050049DFA2 /* NotlarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19889D12753A8050049DFA2 /* NotlarRouter.swift */; };
+		B1ABF90E2753AB380063AD82 /* AddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ABF90D2753AB380063AD82 /* AddVC.swift */; };
+		B1ABF9112753B19A0063AD82 /* AddProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ABF9102753B19A0063AD82 /* AddProtocol.swift */; };
+		B1ABF9142753B2A00063AD82 /* AddInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ABF9132753B2A00063AD82 /* AddInteractor.swift */; };
+		B1ABF9172753B3400063AD82 /* AddPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ABF9162753B3400063AD82 /* AddPresenter.swift */; };
+		B1ABF91A2753B4800063AD82 /* AddRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ABF9192753B4800063AD82 /* AddRouter.swift */; };
+		B1ABF91F2753BCC50063AD82 /* DetayProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ABF91E2753BCC50063AD82 /* DetayProtocol.swift */; };
+		B1ABF9222753BD390063AD82 /* DetayInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ABF9212753BD390063AD82 /* DetayInteractor.swift */; };
+		B1ABF9252753BE330063AD82 /* DetayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ABF9242753BE330063AD82 /* DetayPresenter.swift */; };
+		B1ABF9282753C1E70063AD82 /* DetayRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ABF9272753C1E70063AD82 /* DetayRouter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B198896727537AEA0049DFA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B198894827537AE90049DFA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B198894F27537AE90049DFA2;
+			remoteInfo = SQLiteCalismasi;
+		};
+		B198897127537AEA0049DFA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B198894827537AE90049DFA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B198894F27537AE90049DFA2;
+			remoteInfo = SQLiteCalismasi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B198895027537AE90049DFA2 /* SQLiteCalismasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLiteCalismasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B198895327537AE90049DFA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B198895527537AE90049DFA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B198895727537AE90049DFA2 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		B198895A27537AE90049DFA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B198895C27537AE90049DFA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B198895F27537AE90049DFA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B198896127537AE90049DFA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B198896627537AEA0049DFA2 /* SQLiteCalismasiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLiteCalismasiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B198896A27537AEA0049DFA2 /* SQLiteCalismasiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteCalismasiTests.swift; sourceTree = "<group>"; };
+		B198897027537AEA0049DFA2 /* SQLiteCalismasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLiteCalismasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B198897427537AEA0049DFA2 /* SQLiteCalismasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteCalismasiUITests.swift; sourceTree = "<group>"; };
+		B198897627537AEA0049DFA2 /* SQLiteCalismasiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteCalismasiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B198898727537D1D0049DFA2 /* LoginProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocol.swift; sourceTree = "<group>"; };
+		B198898A27537E160049DFA2 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		B198898D27537E760049DFA2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B198898E27537E940049DFA2 /* SQLiteCalismasi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SQLiteCalismasi-Bridging-Header.h"; sourceTree = "<group>"; };
+		B198898F27537E940049DFA2 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		B198899027537E940049DFA2 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		B198899127537E940049DFA2 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		B198899227537E940049DFA2 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		B198899327537E940049DFA2 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		B198899427537E940049DFA2 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		B198899527537E940049DFA2 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		B198899627537E940049DFA2 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		B198899727537E940049DFA2 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		B198899827537E940049DFA2 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		B198899927537E940049DFA2 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		B198899F27537F3C0049DFA2 /* Notlar.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Notlar.sqlite; sourceTree = SOURCE_ROOT; };
+		B19889A1275381640049DFA2 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		B19889A7275382BE0049DFA2 /* NotlarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotlarVC.swift; sourceTree = "<group>"; };
+		B19889AA275386C60049DFA2 /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
+		B19889AD275389970049DFA2 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		B19889B027538DD40049DFA2 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		B19889B327538EAA0049DFA2 /* RegisterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterProtocol.swift; sourceTree = "<group>"; };
+		B19889B627538F350049DFA2 /* RegisterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInteractor.swift; sourceTree = "<group>"; };
+		B19889B8275395770049DFA2 /* RegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
+		B19889BC275396070049DFA2 /* RegisterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRouter.swift; sourceTree = "<group>"; };
+		B19889BF27539C9F0049DFA2 /* NotlarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotlarTableViewCell.swift; sourceTree = "<group>"; };
+		B19889C127539D310049DFA2 /* Notlar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notlar.swift; sourceTree = "<group>"; };
+		B19889C527539E0F0049DFA2 /* DetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayVC.swift; sourceTree = "<group>"; };
+		B19889C827539F4E0049DFA2 /* NotlarProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotlarProtocol.swift; sourceTree = "<group>"; };
+		B19889CB2753A0510049DFA2 /* NotlarInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotlarInteractor.swift; sourceTree = "<group>"; };
+		B19889CE2753A3710049DFA2 /* NotlarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotlarPresenter.swift; sourceTree = "<group>"; };
+		B19889D12753A8050049DFA2 /* NotlarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotlarRouter.swift; sourceTree = "<group>"; };
+		B1ABF90D2753AB380063AD82 /* AddVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVC.swift; sourceTree = "<group>"; };
+		B1ABF9102753B19A0063AD82 /* AddProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProtocol.swift; sourceTree = "<group>"; };
+		B1ABF9132753B2A00063AD82 /* AddInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInteractor.swift; sourceTree = "<group>"; };
+		B1ABF9162753B3400063AD82 /* AddPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPresenter.swift; sourceTree = "<group>"; };
+		B1ABF9192753B4800063AD82 /* AddRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRouter.swift; sourceTree = "<group>"; };
+		B1ABF91E2753BCC50063AD82 /* DetayProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayProtocol.swift; sourceTree = "<group>"; };
+		B1ABF9212753BD390063AD82 /* DetayInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayInteractor.swift; sourceTree = "<group>"; };
+		B1ABF9242753BE330063AD82 /* DetayPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayPresenter.swift; sourceTree = "<group>"; };
+		B1ABF9272753C1E70063AD82 /* DetayRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayRouter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B198894D27537AE90049DFA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B198896327537AEA0049DFA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B198896D27537AEA0049DFA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B198894727537AE90049DFA2 = {
+			isa = PBXGroup;
+			children = (
+				B198895227537AE90049DFA2 /* SQLiteCalismasi */,
+				B198896927537AEA0049DFA2 /* SQLiteCalismasiTests */,
+				B198897327537AEA0049DFA2 /* SQLiteCalismasiUITests */,
+				B198895127537AE90049DFA2 /* Products */,
+				B198898C27537E760049DFA2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B198895127537AE90049DFA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B198895027537AE90049DFA2 /* SQLiteCalismasi.app */,
+				B198896627537AEA0049DFA2 /* SQLiteCalismasiTests.xctest */,
+				B198897027537AEA0049DFA2 /* SQLiteCalismasiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B198895227537AE90049DFA2 /* SQLiteCalismasi */ = {
+			isa = PBXGroup;
+			children = (
+				B198898327537C280049DFA2 /* app-module */,
+				B198895327537AE90049DFA2 /* AppDelegate.swift */,
+				B198895527537AE90049DFA2 /* SceneDelegate.swift */,
+				B198895927537AE90049DFA2 /* Main.storyboard */,
+				B198895C27537AE90049DFA2 /* Assets.xcassets */,
+				B198895E27537AE90049DFA2 /* LaunchScreen.storyboard */,
+				B198896127537AE90049DFA2 /* Info.plist */,
+				B198899F27537F3C0049DFA2 /* Notlar.sqlite */,
+				B198899127537E940049DFA2 /* FMDatabase.h */,
+				B198899027537E940049DFA2 /* FMDatabase.m */,
+				B198899527537E940049DFA2 /* FMDatabaseAdditions.h */,
+				B198899227537E940049DFA2 /* FMDatabaseAdditions.m */,
+				B198899327537E940049DFA2 /* FMDatabasePool.h */,
+				B198899627537E940049DFA2 /* FMDatabasePool.m */,
+				B198899827537E940049DFA2 /* FMDatabaseQueue.h */,
+				B198899427537E940049DFA2 /* FMDatabaseQueue.m */,
+				B198898F27537E940049DFA2 /* FMDB.h */,
+				B198899727537E940049DFA2 /* FMResultSet.h */,
+				B198899927537E940049DFA2 /* FMResultSet.m */,
+				B198898E27537E940049DFA2 /* SQLiteCalismasi-Bridging-Header.h */,
+			);
+			path = SQLiteCalismasi;
+			sourceTree = "<group>";
+		};
+		B198896927537AEA0049DFA2 /* SQLiteCalismasiTests */ = {
+			isa = PBXGroup;
+			children = (
+				B198896A27537AEA0049DFA2 /* SQLiteCalismasiTests.swift */,
+			);
+			path = SQLiteCalismasiTests;
+			sourceTree = "<group>";
+		};
+		B198897327537AEA0049DFA2 /* SQLiteCalismasiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B198897427537AEA0049DFA2 /* SQLiteCalismasiUITests.swift */,
+				B198897627537AEA0049DFA2 /* SQLiteCalismasiUITestsLaunchTests.swift */,
+			);
+			path = SQLiteCalismasiUITests;
+			sourceTree = "<group>";
+		};
+		B198898327537C280049DFA2 /* app-module */ = {
+			isa = PBXGroup;
+			children = (
+				B1ABF90B2753AB270063AD82 /* add-module */,
+				B19889C327539DFB0049DFA2 /* detay-module */,
+				B19889A9275386B90049DFA2 /* entity */,
+				B19889A5275382A60049DFA2 /* notlar-module */,
+				B19889A4275382A00049DFA2 /* register-module */,
+				B198898427537C2C0049DFA2 /* login-module */,
+			);
+			path = "app-module";
+			sourceTree = "<group>";
+		};
+		B198898427537C2C0049DFA2 /* login-module */ = {
+			isa = PBXGroup;
+			children = (
+				B19889AC2753898F0049DFA2 /* router */,
+				B19889A3275381700049DFA2 /* presenter */,
+				B198898927537E0D0049DFA2 /* interactor */,
+				B198898627537D140049DFA2 /* protocol */,
+				B198898527537C310049DFA2 /* view */,
+			);
+			path = "login-module";
+			sourceTree = "<group>";
+		};
+		B198898527537C310049DFA2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B198895727537AE90049DFA2 /* LoginVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B198898627537D140049DFA2 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B198898727537D1D0049DFA2 /* LoginProtocol.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		B198898927537E0D0049DFA2 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B198898A27537E160049DFA2 /* LoginInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		B198898C27537E760049DFA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B198898D27537E760049DFA2 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B19889A3275381700049DFA2 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B19889A1275381640049DFA2 /* LoginPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		B19889A4275382A00049DFA2 /* register-module */ = {
+			isa = PBXGroup;
+			children = (
+				B19889BB275396000049DFA2 /* router */,
+				B19889BA275395CC0049DFA2 /* presenter */,
+				B19889B527538F2B0049DFA2 /* interactor */,
+				B19889B227538E9E0049DFA2 /* protocol */,
+				B19889AF27538DBD0049DFA2 /* view */,
+			);
+			path = "register-module";
+			sourceTree = "<group>";
+		};
+		B19889A5275382A60049DFA2 /* notlar-module */ = {
+			isa = PBXGroup;
+			children = (
+				B19889D02753A7FD0049DFA2 /* router */,
+				B19889CD2753A3690049DFA2 /* presenter */,
+				B19889CA2753A0480049DFA2 /* interactor */,
+				B19889C727539F400049DFA2 /* protocols */,
+				B19889BE27539C880049DFA2 /* tableview */,
+				B19889A6275382AF0049DFA2 /* view */,
+			);
+			path = "notlar-module";
+			sourceTree = "<group>";
+		};
+		B19889A6275382AF0049DFA2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B19889A7275382BE0049DFA2 /* NotlarVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B19889A9275386B90049DFA2 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				B19889AA275386C60049DFA2 /* Kisiler.swift */,
+				B19889C127539D310049DFA2 /* Notlar.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		B19889AC2753898F0049DFA2 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				B19889AD275389970049DFA2 /* LoginRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		B19889AF27538DBD0049DFA2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B19889B027538DD40049DFA2 /* RegisterVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B19889B227538E9E0049DFA2 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B19889B327538EAA0049DFA2 /* RegisterProtocol.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		B19889B527538F2B0049DFA2 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B19889B627538F350049DFA2 /* RegisterInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		B19889BA275395CC0049DFA2 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B19889B8275395770049DFA2 /* RegisterPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		B19889BB275396000049DFA2 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				B19889BC275396070049DFA2 /* RegisterRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		B19889BE27539C880049DFA2 /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				B19889BF27539C9F0049DFA2 /* NotlarTableViewCell.swift */,
+			);
+			path = tableview;
+			sourceTree = "<group>";
+		};
+		B19889C327539DFB0049DFA2 /* detay-module */ = {
+			isa = PBXGroup;
+			children = (
+				B1ABF9262753C1E00063AD82 /* router */,
+				B1ABF9232753BE290063AD82 /* presenter */,
+				B1ABF9202753BD2E0063AD82 /* interactor */,
+				B1ABF91C2753BCA80063AD82 /* protocol */,
+				B19889C427539DFE0049DFA2 /* view */,
+			);
+			path = "detay-module";
+			sourceTree = "<group>";
+		};
+		B19889C427539DFE0049DFA2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B19889C527539E0F0049DFA2 /* DetayVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B19889C727539F400049DFA2 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B19889C827539F4E0049DFA2 /* NotlarProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		B19889CA2753A0480049DFA2 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B19889CB2753A0510049DFA2 /* NotlarInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		B19889CD2753A3690049DFA2 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B19889CE2753A3710049DFA2 /* NotlarPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		B19889D02753A7FD0049DFA2 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				B19889D12753A8050049DFA2 /* NotlarRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		B1ABF90B2753AB270063AD82 /* add-module */ = {
+			isa = PBXGroup;
+			children = (
+				B1ABF9182753B4780063AD82 /* router */,
+				B1ABF9152753B3320063AD82 /* presenter */,
+				B1ABF9122753B2970063AD82 /* interactor */,
+				B1ABF90F2753B18D0063AD82 /* protocols */,
+				B1ABF90C2753AB2B0063AD82 /* view */,
+			);
+			path = "add-module";
+			sourceTree = "<group>";
+		};
+		B1ABF90C2753AB2B0063AD82 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B1ABF90D2753AB380063AD82 /* AddVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B1ABF90F2753B18D0063AD82 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B1ABF9102753B19A0063AD82 /* AddProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		B1ABF9122753B2970063AD82 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B1ABF9132753B2A00063AD82 /* AddInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		B1ABF9152753B3320063AD82 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B1ABF9162753B3400063AD82 /* AddPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		B1ABF9182753B4780063AD82 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				B1ABF9192753B4800063AD82 /* AddRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		B1ABF91C2753BCA80063AD82 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B1ABF91E2753BCC50063AD82 /* DetayProtocol.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		B1ABF9202753BD2E0063AD82 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B1ABF9212753BD390063AD82 /* DetayInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		B1ABF9232753BE290063AD82 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B1ABF9242753BE330063AD82 /* DetayPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		B1ABF9262753C1E00063AD82 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				B1ABF9272753C1E70063AD82 /* DetayRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B198894F27537AE90049DFA2 /* SQLiteCalismasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B198897A27537AEA0049DFA2 /* Build configuration list for PBXNativeTarget "SQLiteCalismasi" */;
+			buildPhases = (
+				B198894C27537AE90049DFA2 /* Sources */,
+				B198894D27537AE90049DFA2 /* Frameworks */,
+				B198894E27537AE90049DFA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLiteCalismasi;
+			productName = SQLiteCalismasi;
+			productReference = B198895027537AE90049DFA2 /* SQLiteCalismasi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B198896527537AEA0049DFA2 /* SQLiteCalismasiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B198897D27537AEA0049DFA2 /* Build configuration list for PBXNativeTarget "SQLiteCalismasiTests" */;
+			buildPhases = (
+				B198896227537AEA0049DFA2 /* Sources */,
+				B198896327537AEA0049DFA2 /* Frameworks */,
+				B198896427537AEA0049DFA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B198896827537AEA0049DFA2 /* PBXTargetDependency */,
+			);
+			name = SQLiteCalismasiTests;
+			productName = SQLiteCalismasiTests;
+			productReference = B198896627537AEA0049DFA2 /* SQLiteCalismasiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B198896F27537AEA0049DFA2 /* SQLiteCalismasiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B198898027537AEA0049DFA2 /* Build configuration list for PBXNativeTarget "SQLiteCalismasiUITests" */;
+			buildPhases = (
+				B198896C27537AEA0049DFA2 /* Sources */,
+				B198896D27537AEA0049DFA2 /* Frameworks */,
+				B198896E27537AEA0049DFA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B198897227537AEA0049DFA2 /* PBXTargetDependency */,
+			);
+			name = SQLiteCalismasiUITests;
+			productName = SQLiteCalismasiUITests;
+			productReference = B198897027537AEA0049DFA2 /* SQLiteCalismasiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B198894827537AE90049DFA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					B198894F27537AE90049DFA2 = {
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
+					};
+					B198896527537AEA0049DFA2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = B198894F27537AE90049DFA2;
+					};
+					B198896F27537AEA0049DFA2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = B198894F27537AE90049DFA2;
+					};
+				};
+			};
+			buildConfigurationList = B198894B27537AE90049DFA2 /* Build configuration list for PBXProject "SQLiteCalismasi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B198894727537AE90049DFA2;
+			productRefGroup = B198895127537AE90049DFA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B198894F27537AE90049DFA2 /* SQLiteCalismasi */,
+				B198896527537AEA0049DFA2 /* SQLiteCalismasiTests */,
+				B198896F27537AEA0049DFA2 /* SQLiteCalismasiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B198894E27537AE90049DFA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B198896027537AE90049DFA2 /* LaunchScreen.storyboard in Resources */,
+				B19889A027537F3C0049DFA2 /* Notlar.sqlite in Resources */,
+				B198895D27537AE90049DFA2 /* Assets.xcassets in Resources */,
+				B198895B27537AE90049DFA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B198896427537AEA0049DFA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B198896E27537AEA0049DFA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B198894C27537AE90049DFA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B198895827537AE90049DFA2 /* LoginVC.swift in Sources */,
+				B19889CF2753A3710049DFA2 /* NotlarPresenter.swift in Sources */,
+				B198899C27537E940049DFA2 /* FMDatabaseQueue.m in Sources */,
+				B198898827537D1D0049DFA2 /* LoginProtocol.swift in Sources */,
+				B1ABF9222753BD390063AD82 /* DetayInteractor.swift in Sources */,
+				B198895427537AE90049DFA2 /* AppDelegate.swift in Sources */,
+				B19889A2275381640049DFA2 /* LoginPresenter.swift in Sources */,
+				B19889B727538F350049DFA2 /* RegisterInteractor.swift in Sources */,
+				B19889AB275386C60049DFA2 /* Kisiler.swift in Sources */,
+				B198899E27537E940049DFA2 /* FMResultSet.m in Sources */,
+				B1ABF90E2753AB380063AD82 /* AddVC.swift in Sources */,
+				B1ABF9282753C1E70063AD82 /* DetayRouter.swift in Sources */,
+				B19889C627539E0F0049DFA2 /* DetayVC.swift in Sources */,
+				B19889A8275382BE0049DFA2 /* NotlarVC.swift in Sources */,
+				B19889B427538EAA0049DFA2 /* RegisterProtocol.swift in Sources */,
+				B198899D27537E940049DFA2 /* FMDatabasePool.m in Sources */,
+				B19889C927539F4E0049DFA2 /* NotlarProtocol.swift in Sources */,
+				B1ABF9112753B19A0063AD82 /* AddProtocol.swift in Sources */,
+				B19889B127538DD40049DFA2 /* RegisterVC.swift in Sources */,
+				B198899A27537E940049DFA2 /* FMDatabase.m in Sources */,
+				B19889B9275395770049DFA2 /* RegisterPresenter.swift in Sources */,
+				B1ABF9142753B2A00063AD82 /* AddInteractor.swift in Sources */,
+				B198898B27537E160049DFA2 /* LoginInteractor.swift in Sources */,
+				B19889D22753A8050049DFA2 /* NotlarRouter.swift in Sources */,
+				B19889C027539C9F0049DFA2 /* NotlarTableViewCell.swift in Sources */,
+				B1ABF91F2753BCC50063AD82 /* DetayProtocol.swift in Sources */,
+				B19889C227539D310049DFA2 /* Notlar.swift in Sources */,
+				B1ABF9172753B3400063AD82 /* AddPresenter.swift in Sources */,
+				B19889BD275396070049DFA2 /* RegisterRouter.swift in Sources */,
+				B1ABF91A2753B4800063AD82 /* AddRouter.swift in Sources */,
+				B19889CC2753A0510049DFA2 /* NotlarInteractor.swift in Sources */,
+				B1ABF9252753BE330063AD82 /* DetayPresenter.swift in Sources */,
+				B198899B27537E940049DFA2 /* FMDatabaseAdditions.m in Sources */,
+				B19889AE275389970049DFA2 /* LoginRouter.swift in Sources */,
+				B198895627537AE90049DFA2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B198896227537AEA0049DFA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B198896B27537AEA0049DFA2 /* SQLiteCalismasiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B198896C27537AEA0049DFA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B198897527537AEA0049DFA2 /* SQLiteCalismasiUITests.swift in Sources */,
+				B198897727537AEA0049DFA2 /* SQLiteCalismasiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B198896827537AEA0049DFA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B198894F27537AE90049DFA2 /* SQLiteCalismasi */;
+			targetProxy = B198896727537AEA0049DFA2 /* PBXContainerItemProxy */;
+		};
+		B198897227537AEA0049DFA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B198894F27537AE90049DFA2 /* SQLiteCalismasi */;
+			targetProxy = B198897127537AEA0049DFA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B198895927537AE90049DFA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B198895A27537AE90049DFA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B198895E27537AE90049DFA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B198895F27537AE90049DFA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B198897827537AEA0049DFA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B198897927537AEA0049DFA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B198897B27537AEA0049DFA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SQLiteCalismasi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.burakAydogdu.SQLiteCalismasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SQLiteCalismasi/SQLiteCalismasi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B198897C27537AEA0049DFA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SQLiteCalismasi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.burakAydogdu.SQLiteCalismasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SQLiteCalismasi/SQLiteCalismasi-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B198897E27537AEA0049DFA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.burakAydogdu.SQLiteCalismasiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQLiteCalismasi.app/SQLiteCalismasi";
+			};
+			name = Debug;
+		};
+		B198897F27537AEA0049DFA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.burakAydogdu.SQLiteCalismasiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQLiteCalismasi.app/SQLiteCalismasi";
+			};
+			name = Release;
+		};
+		B198898127537AEA0049DFA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.burakAydogdu.SQLiteCalismasiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SQLiteCalismasi;
+			};
+			name = Debug;
+		};
+		B198898227537AEA0049DFA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.burakAydogdu.SQLiteCalismasiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SQLiteCalismasi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B198894B27537AE90049DFA2 /* Build configuration list for PBXProject "SQLiteCalismasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B198897827537AEA0049DFA2 /* Debug */,
+				B198897927537AEA0049DFA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B198897A27537AEA0049DFA2 /* Build configuration list for PBXNativeTarget "SQLiteCalismasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B198897B27537AEA0049DFA2 /* Debug */,
+				B198897C27537AEA0049DFA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B198897D27537AEA0049DFA2 /* Build configuration list for PBXNativeTarget "SQLiteCalismasiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B198897E27537AEA0049DFA2 /* Debug */,
+				B198897F27537AEA0049DFA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B198898027537AEA0049DFA2 /* Build configuration list for PBXNativeTarget "SQLiteCalismasiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B198898127537AEA0049DFA2 /* Debug */,
+				B198898227537AEA0049DFA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B198894827537AE90049DFA2 /* Project object */;
+}
